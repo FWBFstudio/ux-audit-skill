@@ -81,12 +81,12 @@ Prérequis : Claude Code installé (la version supportant les skills, sortie en 
 # Pour une installation personnelle (disponible dans tous vos projets)
 mkdir -p ~/.claude/skills
 cd ~/.claude/skills
-git clone https://github.com/VOTRE-USERNAME/claude-audit-ux.git audit-ux
+git clone git clone https://github.com/FWBFstudio/ux-audit-skill.git audit-ux
 
 # Ou pour une installation au niveau d'un projet spécifique
 cd /chemin/vers/votre/projet
 mkdir -p .claude/skills
-git clone https://github.com/VOTRE-USERNAME/claude-audit-ux.git .claude/skills/audit-ux
+git clone https://github.com/VOTRE-USERNAME/ux-audit-skill.git .claude/skills/audit-ux
 ```
 
 Claude Code détecte automatiquement la skill et la rend disponible avec `/audit-ux`. Pas besoin de redémarrage tant que le dossier `~/.claude/skills/` existait déjà au démarrage de la session.
