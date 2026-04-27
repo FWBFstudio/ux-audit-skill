@@ -86,7 +86,7 @@ git clone git clone https://github.com/FWBFstudio/ux-audit-skill.git audit-ux
 # Or for a project-specific install
 cd /path/to/your/project
 mkdir -p .claude/skills
-git clone git clone https://github.com/FWBFstudio/ux-audit-skill.git audit-ux .claude/skills/audit-ux
+git clone https://github.com/VOTRE-USERNAME/ux-audit-skill.git .claude/skills/audit-ux
 ```
 
 Claude Code automatically detects the skill and makes it available via `/audit-ux`. No restart needed as long as the `~/.claude/skills/` directory already existed when the session started.
