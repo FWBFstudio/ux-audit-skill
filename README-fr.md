@@ -81,7 +81,7 @@ Prérequis : Claude Code installé (la version supportant les skills, sortie en 
 # Pour une installation personnelle (disponible dans tous vos projets)
 mkdir -p ~/.claude/skills
 cd ~/.claude/skills
-git clone git clone https://github.com/FWBFstudio/ux-audit-skill.git audit-ux
+git clone https://github.com/FWBFstudio/ux-audit-skill.git audit-ux
 
 # Ou pour une installation au niveau d'un projet spécifique
 cd /chemin/vers/votre/projet
